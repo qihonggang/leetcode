@@ -22,20 +22,31 @@ func Test1(t *testing.T) {
 	}
 
 	for k, v := range tc {
-		out := twoSum(v.in1, v.in2)
+		out := twoSum1(v.in1, v.in2)
 		if !reflect.DeepEqual(out, v.out) {
 			t.Errorf("case-%v:except answer: [%v], get answer: [%v]", k, v.out, out)
 		}
 	}
 }
 
-func twoSum(nums []int, target int) []int {
+func twoSum1(nums []int, target int) []int {
 	for i := 0; i < len(nums); i++ {
 		for j := i + 1; j < len(nums); j++ {
 			if nums[i]+nums[j] == target {
 				return []int{i, j}
 			}
 		}
+	}
+	return nil
+}
+
+func twoSum2(nums []int, target int) []int {
+	m := map[int]int{}
+	for i, v := range nums {
+		if k, ok := m[target-v]; ok {
+			return []int{k, i}
+		}
+		m[v] = i
 	}
 	return nil
 }
