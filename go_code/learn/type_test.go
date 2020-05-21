@@ -19,10 +19,3 @@ func TestPont(t *testing.T) {
 	t.Log(a, aPtr)
 	t.Logf("%T %T", a, aPtr)
 }
-
-func TestString(t *testing.T) {
-	var s string
-	t.Log("*" + s + "*")
-	t.Log(len(s))
-
-}
