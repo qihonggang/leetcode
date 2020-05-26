@@ -18,6 +18,6 @@ func TestBuilder2(t *testing.T) {
 	director.Construct()
 	res := builder.GetResult()
 	if res != 6 {
-		t.Fatalf("Builder2 fail expect 6 acture %d", res)
+		t.Fatalf("Builder2 fail expect 6 acture %d ", res)
 	}
 }
