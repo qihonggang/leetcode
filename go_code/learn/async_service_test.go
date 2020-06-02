@@ -7,7 +7,7 @@ import (
 )
 
 func service() string {
-	time.Sleep(time.Millisecond * 50)
+	time.Sleep(time.Millisecond * 500)
 	return "Done"
 }
 
@@ -37,4 +37,13 @@ func TestAsynService(t *testing.T) {
 	retCh := AsynService()
 	otherTask()
 	fmt.Println(<-retCh)
+}
+
+func TestSelect(t *testing.T) {
+	select {
+	case ret := <-AsynService():
+		t.Log(ret)
+	case <-time.After(time.Millisecond * 100):
+		t.Error("time out")
+	}
 }
