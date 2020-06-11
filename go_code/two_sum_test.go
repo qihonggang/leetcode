@@ -1,6 +1,6 @@
 /**
-题目：[1]两数之和
-*/
+* 题目：两数之和
+ */
 package go_code
 
 import (
