@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/best_time_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/practice/best_time_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/design_pattern/structural/flyweight/flyweight_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/design_pattern/structural/flyweight/flyweight_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/two_sum_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/practice/two_sum_test.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1dGlmEMoJcNtnbcge7OLbL9pV70" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\leetcode\go_code\practice" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build leetcode/storage/gorm">
+    <configuration name="go build leetcode/storage/gorm" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/go_code" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/go_code/storage/gorm/quick_start.go" />
+      <package value="leetcode/storage/gorm" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestExchange in leetcode/learn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/go_code/learn" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode/learn" />
+      <pattern value="^TestExchange$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestFibList in leetcode/learn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/go_code/learn" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode/learn" />
+      <pattern value="^TestFibList$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestFlyweight in flyweight_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/go_code/design_pattern/structural/flyweight" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/go_code/design_pattern/structural/flyweight/flyweight_test.go" />
+      <pattern value="^TestFlyweight$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestProxy in proxy_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/go_code/design_pattern/structural/proxy" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/go_code/design_pattern/structural/proxy/proxy_test.go" />
+      <pattern value="^TestProxy$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build leetcode/storage/gorm" />
+        <item itemvalue="Go Test.TestFibList in leetcode/learn" />
+        <item itemvalue="Go Test.TestExchange in leetcode/learn" />
+        <item itemvalue="Go Test.TestFlyweight in flyweight_test.go" />
+        <item itemvalue="Go Test.TestProxy in proxy_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="752" y="358" key="#Go_Modules" timestamp="1592060087579">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="752" y="358" key="#Go_Modules/0.0.1920.1050@0.0.1920.1050" timestamp="1592060087579" />
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592060749276">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592060749276" />
+    <state x="740" y="229" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1592060745730">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="229" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592060745730" />
+    <state x="847" y="384" key="EnvironmentVariablesDialog" timestamp="1592060077384">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="847" y="384" key="EnvironmentVariablesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592060077384" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1592060353993">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592060353993" />
+    <state width="1665" height="269" key="GridCell.Tab.0.bottom" timestamp="1592062566321">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1665" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592062566321" />
+    <state width="1665" height="269" key="GridCell.Tab.0.center" timestamp="1592062566321">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1665" height="269" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592062566321" />
+    <state width="1665" height="269" key="GridCell.Tab.0.left" timestamp="1592062566320">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1665" height="269" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592062566320" />
+    <state width="1665" height="269" key="GridCell.Tab.0.right" timestamp="1592062566321">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1665" height="269" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592062566321" />
+    <state x="620" y="162" key="SettingsEditor" timestamp="1592060652587">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="620" y="162" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1592060652587" />
+    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1592061932172">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1592061932172" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leetcode$two_sum_test_go.out" NAME="two_sum_test.go Coverage Results" MODIFIED="1592059959818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

@@ -1,7 +1,7 @@
 /**
  *	题目：买卖股票的最佳时机
  */
-package go_code
+package practice
 
 import(
 	"testing"

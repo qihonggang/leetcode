@@ -1,7 +1,7 @@
 /**
 * 题目：两数之和
  */
-package go_code
+package practice
 
 import (
 	"reflect"
