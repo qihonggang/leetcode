@@ -26,7 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go_code/practice/except_self_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/practice/max_sub_array_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +77,7 @@
       <recent name="D:\code\leetcode\go_code\practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestExcepteSelf in leetcode/practice">
+  <component name="RunManager" selected="Go Test.TestMaxSubArray in leetcode/practice">
     <configuration name="go build leetcode/storage/gorm" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$/go_code" />
@@ -117,22 +117,24 @@
       <pattern value="^TestExcepteSelf$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestFibList in leetcode/learn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMaxSubArray in leetcode/practice" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/go_code/learn" />
+      <working_directory value="$PROJECT_DIR$/go_code/practice" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="leetcode/learn" />
-      <pattern value="^TestFibList$" />
+      <package value="leetcode/practice" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestMaxSubArray$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestMaxSubArray in leetcode/practice" />
         <item itemvalue="Go Test.TestExcepteSelf in leetcode/practice" />
         <item itemvalue="Go Build.go build leetcode/storage/neo4j" />
         <item itemvalue="Go Test.TestContanisDuplicate in leetcode/practice" />
         <item itemvalue="Go Build.go build leetcode/storage/gorm" />
-        <item itemvalue="Go Test.TestFibList in leetcode/learn" />
       </list>
     </recent_temporary>
   </component>
