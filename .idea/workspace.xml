@@ -26,9 +26,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go_code/demo/chat/broadcaster.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/demo/chat/conn.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/demo/chat/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/practice/util/copy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/practice/util/dict.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/practice/util/math.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/practice/util/queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/practice/util/sort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/practice/util/stack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/practice/util/tansform.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +83,7 @@
       <recent name="D:\code\leetcode\go_code\demo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\leetcode\go_code\practice\lib" />
       <recent name="D:\code\leetcode\go_code\practice" />
     </key>
   </component>
@@ -233,10 +238,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="620" y="162" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1592320715652" />
-    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1592624014486">
+    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1592638731850">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1592624014486" />
+    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1592638731850" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$two_sum_test_go.out" NAME="two_sum_test.go Coverage Results" MODIFIED="1592059959818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
