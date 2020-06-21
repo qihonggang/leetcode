@@ -9,7 +9,7 @@ func TestTraversal(t *testing.T) {
 	preorderTraversal(tree)
 	// 前序遍历（非递归）测试
 	treeArrPre2 :=  preorderTraversal2(tree)
-	t.Logf("序遍历（非递归）：%d", treeArrPre2)
+	t.Logf("前序遍历（非递归）：%d", treeArrPre2)
 	// 中序遍历（非递归）测试
 	treeArrIn := inorderTraversal(tree)
 	t.Logf("中序遍历（非递归）：%d", treeArrIn)
