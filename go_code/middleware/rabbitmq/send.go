@@ -1,16 +1,8 @@
 package main
 
 import (
-	"log"
-
 	"github.com/streadway/amqp"
 )
-
-func failOnError(err error, msg string) {
-	if err != nil {
-		log.Fatal("%s: %s", msg, err)
-	}
-}
 
 func main() {
 	conn, err := amqp.Dial("amqp://admin:admin@127.0.0.1:5672/admin")

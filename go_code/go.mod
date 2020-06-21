@@ -9,5 +9,6 @@ require (
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/neo4j/neo4j-go-driver v1.8.0
 	github.com/smartystreets/goconvey v1.6.4
+	github.com/streadway/amqp v1.0.0 // indirect
 	github.com/uber/go-torch v0.0.0-20181107071353-86f327cc820e // indirect
 )
