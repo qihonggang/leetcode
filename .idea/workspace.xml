@@ -26,7 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go_code/practice/sub_set_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/binary_tree/traversal.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/binary_tree/treeNode.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,12 +74,13 @@
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\leetcode\go_code\demo" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\leetcode\go_code\algorithm_pattern\data_structure\binary_tree" />
       <recent name="D:\code\leetcode\go_code\practice\lib" />
       <recent name="D:\code\leetcode\go_code\practice" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\leetcode\go_code\demo" />
     </key>
   </component>
   <component name="RunManager" selected="Go Test.TestSubSet in leetcode/practice">
@@ -198,22 +200,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" width="681" height="519" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592320714373" />
-    <state width="1665" height="227" key="GridCell.Tab.0.bottom" timestamp="1592652117781">
+    <state width="1665" height="227" key="GridCell.Tab.0.bottom" timestamp="1592653901920">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1665" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592652117781" />
-    <state width="1665" height="227" key="GridCell.Tab.0.center" timestamp="1592652117781">
+    <state width="1665" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592653901920" />
+    <state width="1665" height="227" key="GridCell.Tab.0.center" timestamp="1592653901920">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1665" height="227" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592652117781" />
-    <state width="1665" height="227" key="GridCell.Tab.0.left" timestamp="1592652117781">
+    <state width="1665" height="227" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592653901920" />
+    <state width="1665" height="227" key="GridCell.Tab.0.left" timestamp="1592653901920">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1665" height="227" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592652117781" />
-    <state width="1665" height="227" key="GridCell.Tab.0.right" timestamp="1592652117781">
+    <state width="1665" height="227" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592653901920" />
+    <state width="1665" height="227" key="GridCell.Tab.0.right" timestamp="1592653901920">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1665" height="227" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592652117781" />
+    <state width="1665" height="227" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592653901920" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1592550532267">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
