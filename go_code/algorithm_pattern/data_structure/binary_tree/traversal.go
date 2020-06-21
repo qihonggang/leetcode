@@ -33,12 +33,13 @@ func preorderTraversal2(root *TreeNode) []int {
 		}
 		// pop
 		node := stack[len(stack) - 1]
-		stack = append(stack, root)
-		root = node.Left
+		stack = stack[:len(stack) - 1]
+		root = node.Right
 	}
 	return result
 }
 
+// 中序非递归遍历
 // 思路：通过stack保存已经访问的元素，用于原路返回
 func inorderTraversal(root *TreeNode) []int {
 	result := make([]int, 0)
@@ -130,7 +131,7 @@ func divideAndConquer(root *TreeNode) []int {
 
 // BFS层次遍历
 func levelOrder(root *TreeNode) [][]int {
-	// 通过上一层的擦汗高难度确定下一层的元素
+	// 通过上一层的长度确定下一层的元素
 	result := make([][]int, 0)
 	if root == nil {
 		return result

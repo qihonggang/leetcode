@@ -26,9 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/binary_tree/traversal.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/binary_tree/treeNode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/binary_tree/traversal_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/binary_tree/traversal.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/binary_tree/traversal.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/binary_tree/treeNode.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/binary_tree/treeNode.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,18 +84,7 @@
       <recent name="D:\code\leetcode\go_code\demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestSubSet in leetcode/practice">
-    <configuration name="TestExcepteSelf in leetcode/practice" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/go_code/practice" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode/practice" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestExcepteSelf$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestTraversal in leetcode/algorithm_pattern/data_structure/binary_tree">
     <configuration name="TestMaxProduct in leetcode/practice" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$/go_code/practice" />
@@ -139,13 +129,24 @@
       <pattern value="^TestSubSet$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestTraversal in leetcode/algorithm_pattern/data_structure/binary_tree" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/binary_tree" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode/algorithm_pattern/data_structure/binary_tree" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestTraversal$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestTraversal in leetcode/algorithm_pattern/data_structure/binary_tree" />
         <item itemvalue="Go Test.TestSubSet in leetcode/practice" />
         <item itemvalue="Go Test.TestStrStr in leetcode/practice" />
         <item itemvalue="Go Test.TestMaxProduct in leetcode/practice" />
         <item itemvalue="Go Test.TestMaxSubArray in leetcode/practice" />
-        <item itemvalue="Go Test.TestExcepteSelf in leetcode/practice" />
       </list>
     </recent_temporary>
   </component>
@@ -200,22 +201,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" width="681" height="519" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592320714373" />
-    <state width="1665" height="227" key="GridCell.Tab.0.bottom" timestamp="1592653901920">
+    <state width="1877" height="362" key="GridCell.Tab.0.bottom" timestamp="1592762997182">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1665" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592653901920" />
-    <state width="1665" height="227" key="GridCell.Tab.0.center" timestamp="1592653901920">
+    <state width="1877" height="362" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592762997182" />
+    <state width="1877" height="362" key="GridCell.Tab.0.center" timestamp="1592762997182">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1665" height="227" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592653901920" />
-    <state width="1665" height="227" key="GridCell.Tab.0.left" timestamp="1592653901920">
+    <state width="1877" height="362" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592762997182" />
+    <state width="1877" height="362" key="GridCell.Tab.0.left" timestamp="1592762997182">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1665" height="227" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592653901920" />
-    <state width="1665" height="227" key="GridCell.Tab.0.right" timestamp="1592653901920">
+    <state width="1877" height="362" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592762997182" />
+    <state width="1877" height="362" key="GridCell.Tab.0.right" timestamp="1592762997182">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1665" height="227" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592653901920" />
+    <state width="1877" height="362" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592762997182" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1592550532267">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -236,10 +237,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="620" y="162" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1592320715652" />
-    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1592651011353">
+    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1592756292992">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1592651011353" />
+    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1592756292992" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$two_sum_test_go.out" NAME="two_sum_test.go Coverage Results" MODIFIED="1592059959818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
