@@ -26,7 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go_code/practice/missing_number_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/practice/reverse_bits_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +83,7 @@
       <recent name="D:\code\leetcode\go_code\demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestMissingNuber in leetcode/practice">
+  <component name="RunManager" selected="Go Test.TestReverseBits in leetcode/practice">
     <configuration name="TestFindMin in leetcode/practice" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$/go_code/practice" />
@@ -106,7 +106,7 @@
       <pattern value="^TestMissingNuber$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestStrStr in leetcode/practice" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestReverseBits in leetcode/practice" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$/go_code/practice" />
       <framework value="gotest" />
@@ -114,7 +114,7 @@
       <package value="leetcode/practice" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestStrStr$" />
+      <pattern value="^TestReverseBits$" />
       <method v="2" />
     </configuration>
     <configuration name="TestSubSet in leetcode/practice" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestReverseBits in leetcode/practice" />
         <item itemvalue="Go Test.TestMissingNuber in leetcode/practice" />
         <item itemvalue="Go Test.TestFindMin in leetcode/practice" />
         <item itemvalue="Go Test.TestTraversal in leetcode/algorithm_pattern/data_structure/binary_tree" />
         <item itemvalue="Go Test.TestSubSet in leetcode/practice" />
-        <item itemvalue="Go Test.TestStrStr in leetcode/practice" />
       </list>
     </recent_temporary>
   </component>
@@ -200,22 +200,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" width="681" height="519" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592320714373" />
-    <state width="1665" height="154" key="GridCell.Tab.0.bottom" timestamp="1593961300584">
+    <state width="1665" height="154" key="GridCell.Tab.0.bottom" timestamp="1594135904432">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1665" height="154" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1593961300584" />
-    <state width="1665" height="154" key="GridCell.Tab.0.center" timestamp="1593961300584">
+    <state width="1665" height="154" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1594135904432" />
+    <state width="1665" height="154" key="GridCell.Tab.0.center" timestamp="1594135904432">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1665" height="154" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1593961300584" />
-    <state width="1665" height="154" key="GridCell.Tab.0.left" timestamp="1593961300584">
+    <state width="1665" height="154" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1594135904432" />
+    <state width="1665" height="154" key="GridCell.Tab.0.left" timestamp="1594135904432">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1665" height="154" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1593961300584" />
-    <state width="1665" height="154" key="GridCell.Tab.0.right" timestamp="1593961300584">
+    <state width="1665" height="154" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1594135904432" />
+    <state width="1665" height="154" key="GridCell.Tab.0.right" timestamp="1594135904432">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1665" height="154" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1593961300584" />
+    <state width="1665" height="154" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1594135904432" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1592550532267">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
