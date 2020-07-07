@@ -2,7 +2,10 @@ package practice
 /**
 190. 颠倒二进制位
  */
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 func reverseBits(num uint32) uint32 {
 	ret := uint32(0)
@@ -16,6 +19,8 @@ func reverseBits(num uint32) uint32 {
 }
 
 func TestReverseBits(t *testing.T){
-	t.Log(reverseBits(
-		000000101001010))
+	num := uint32(964176192)
+	fmt.Printf("%b\n", num)
+	a := reverseBits(num)
+	fmt.Printf("%b\n", a)
 }
