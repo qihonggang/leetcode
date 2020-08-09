@@ -26,7 +26,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go_code/climb_staits_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/learn/tour/cmd/root.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/learn/tour/cmd/word.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/learn/tour/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/learn/tour/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/learn/tour/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +61,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -83,7 +88,16 @@
       <recent name="D:\code\leetcode\go_code\demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestClimbStairs in leetcode">
+  <component name="RunManager" selected="Go Build.go build github.com/go-programing-tour-book/tour">
+    <configuration name="go build github.com/go-programing-tour-book/tour" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/go_code/learn/tour" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/go_code/learn/tour/main.go" />
+      <package value="github.com/go-programing-tour-book/tour" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestClimbStairs in leetcode" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$/go_code" />
@@ -128,24 +142,13 @@
       <pattern value="^TestReverseBits$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestTraversal in leetcode/algorithm_pattern/data_structure/binary_tree" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/binary_tree" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode/algorithm_pattern/data_structure/binary_tree" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestTraversal$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/go-programing-tour-book/tour" />
         <item itemvalue="Go Test.TestClimbStairs in leetcode" />
         <item itemvalue="Go Test.TestReverseBits in leetcode/practice" />
         <item itemvalue="Go Test.TestMissingNuber in leetcode/practice" />
         <item itemvalue="Go Test.TestFindMin in leetcode/practice" />
-        <item itemvalue="Go Test.TestTraversal in leetcode/algorithm_pattern/data_structure/binary_tree" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +178,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
