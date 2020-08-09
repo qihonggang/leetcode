@@ -26,11 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go_code/learn/tour/cmd/root.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/learn/tour/cmd/word.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/learn/tour/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/learn/tour/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/learn/tour/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/learn/tour/internal/word/word.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +69,7 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/go_code/demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
