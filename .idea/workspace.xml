@@ -26,8 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/go_code/learn/tour/cmd/time.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/learn/tour/internal/timer/time.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/learn/tour/cmd/word.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/learn/tour/cmd/word.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/learn/tour/cmd/root.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/learn/tour/cmd/root.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
