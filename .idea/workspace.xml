@@ -26,15 +26,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go_code/learn/tour/cmd/sql.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/learn/tour/internal/sql2struct/mysql.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/learn/tour/internal/sql2struct/template.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/docs/blog.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/model/article.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/model/article_tag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/model/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/model/tag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/routers/api/v1/article.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/routers/api/v1/tag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/routers/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/learn/tour/cmd/root.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/learn/tour/cmd/root.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/learn/tour/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/learn/tour/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/learn/tour/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/learn/tour/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +70,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -81,14 +86,15 @@
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\leetcode\go_code\demo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\leetcode\go_code\tour" />
+      <recent name="C:\code\leetcode\go_code" />
       <recent name="D:\code\leetcode\go_code\practice" />
       <recent name="D:\code\leetcode\go_code\algorithm_pattern" />
       <recent name="D:\code\leetcode\go_code\algorithm_pattern\data_structure\binary_tree" />
-      <recent name="D:\code\leetcode\go_code\practice\lib" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\leetcode\go_code\demo" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build github.com/go-programing-tour-book/tour">
@@ -193,10 +199,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="752" y="358" key="#Go_Modules/0.0.1920.1050@0.0.1920.1050" timestamp="1592060087579" />
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592060749276">
+    <state x="593" y="254" width="457" height="587" key="#HTTP_Proxy" timestamp="1597133544056">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592060749276" />
+    <state x="593" y="254" width="457" height="587" key="#HTTP_Proxy/0.0.1920.1050@0.0.1920.1050" timestamp="1597133544056" />
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597133560411">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1597133560411" />
     <state x="740" y="229" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1592060745730">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -241,6 +251,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592550532266" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1597134698393">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1050@0.0.1920.1050" timestamp="1597134698393" />
     <state x="620" y="162" key="SettingsEditor" timestamp="1592320715652">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -249,10 +263,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="662" y="87" width="596" height="876" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1597126320310" />
-    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1597044393338">
+    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1597135471006">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1597044393338" />
+    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1597135471006" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$two_sum_test_go.out" NAME="two_sum_test.go Coverage Results" MODIFIED="1592059959818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
