@@ -26,10 +26,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go_code/learn/tour/cmd/time.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/learn/tour/internal/timer/time.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/learn/tour/cmd/sql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/learn/tour/internal/sql2struct/mysql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/learn/tour/internal/sql2struct/template.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go_code/learn/tour/cmd/root.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/learn/tour/cmd/root.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/learn/tour/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/learn/tour/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/learn/tour/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/learn/tour/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,22 +209,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" width="681" height="519" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592320714373" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1597036173552">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1597046052158">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597036173552" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1597036173552">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597046052158" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1597046052158">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597036173552" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1597036173552">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597046052158" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1597046052158">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597036173552" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1597036173552">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597046052158" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1597046052158">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597036173552" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597046052158" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1592550532267">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -240,10 +245,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="620" y="162" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1592320715652" />
-    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1592756292992">
+    <state x="662" y="87" width="596" height="876" key="find.popup" timestamp="1597126320310">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1592756292992" />
+    <state x="662" y="87" width="596" height="876" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1597126320310" />
+    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1597044393338">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1597044393338" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$two_sum_test_go.out" NAME="two_sum_test.go Coverage Results" MODIFIED="1592059959818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
