@@ -26,19 +26,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/docs/blog.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/model/article.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/model/article_tag.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/model/model.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/model/tag.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/routers/api/v1/article.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/routers/api/v1/tag.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/routers/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/configs/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/global/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/global/setting.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/pkg/errcode/common_code.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/pkg/errcode/errcode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/pkg/setting/section.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/pkg/setting/setting.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/service/blog-service/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/service/blog-service/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/internal/model/model.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/model/model.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/service/blog-service/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,16 @@
       <recent name="D:\code\leetcode\go_code\algorithm_pattern\data_structure\binary_tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/go-programing-tour-book/tour">
+  <component name="RunManager" selected="Go Build.go build blog-service">
+    <configuration name="go build blog-service" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/go_code/service/blog-service" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/go_code/service/blog-service/main.go" />
+      <package value="blog-service" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build github.com/go-programing-tour-book/tour" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$/go_code/learn/tour" />
@@ -116,17 +124,6 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestClimbStairs$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestFindMin in leetcode/practice" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/go_code/practice" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode/practice" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestFindMin$" />
       <method v="2" />
     </configuration>
     <configuration name="TestMissingNuber in leetcode/practice" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -153,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build blog-service" />
         <item itemvalue="Go Build.go build github.com/go-programing-tour-book/tour" />
         <item itemvalue="Go Test.TestClimbStairs in leetcode" />
         <item itemvalue="Go Test.TestReverseBits in leetcode/practice" />
         <item itemvalue="Go Test.TestMissingNuber in leetcode/practice" />
-        <item itemvalue="Go Test.TestFindMin in leetcode/practice" />
       </list>
     </recent_temporary>
   </component>
@@ -219,22 +216,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" width="681" height="519" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592320714373" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1597046052158">
+    <state width="1877" height="252" key="GridCell.Tab.0.bottom" timestamp="1597215050601">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597046052158" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1597046052158">
+    <state width="1877" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597215050601" />
+    <state width="1877" height="252" key="GridCell.Tab.0.center" timestamp="1597215050601">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597046052158" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1597046052158">
+    <state width="1877" height="252" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597215050601" />
+    <state width="1877" height="252" key="GridCell.Tab.0.left" timestamp="1597215050597">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597046052158" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1597046052158">
+    <state width="1877" height="252" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597215050597" />
+    <state width="1877" height="252" key="GridCell.Tab.0.right" timestamp="1597215050601">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597046052158" />
+    <state width="1877" height="252" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597215050601" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1592550532267">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
