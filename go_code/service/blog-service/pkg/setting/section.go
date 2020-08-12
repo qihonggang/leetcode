@@ -14,7 +14,7 @@ type AppSettingS struct {
 	MaxPageSize int
 	LogSavePath string
 	LogFileName string
-	LogFileeExt string
+	LogFileExt string
 }
 
 type DatabaseSettingS struct {
