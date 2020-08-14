@@ -8,11 +8,11 @@ import (
 )
 
 type ValidError struct {
-	Key string
+	Key     string
 	Message string
 }
 
-type ValidErrors [] *ValidError
+type ValidErrors []*ValidError
 
 func (v *ValidError) Error() string {
 	return v.Message
@@ -27,6 +27,7 @@ func (v ValidErrors) Errors() []string {
 	for _, err := range v {
 		errs = append(errs, err.Error())
 	}
+
 	return errs
 }
 
@@ -38,15 +39,18 @@ func BindAndValid(c *gin.Context, v interface{}) (bool, ValidErrors) {
 		trans, _ := v.(ut.Translator)
 		verrs, ok := err.(val.ValidationErrors)
 		if !ok {
-			return true, nil
+			return false, errs
 		}
-		for key, value := range verrs.Translate(trans){
+
+		for key, value := range verrs.Translate(trans) {
 			errs = append(errs, &ValidError{
-				Key: key,
+				Key:     key,
 				Message: value,
 			})
 		}
-		return true, errs
+
+		return false, errs
 	}
-	return false, nil
+
+	return true, nil
 }

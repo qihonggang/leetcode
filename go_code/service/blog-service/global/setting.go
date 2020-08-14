@@ -6,8 +6,8 @@ import (
 )
 
 var (
-	ServerSetting *setting.ServerSettingS
-	AppSetting *setting.AppSettingS
+	ServerSetting   *setting.ServerSettingS
+	AppSetting      *setting.AppSettingS
 	DatabaseSetting *setting.DatabaseSettingS
-	Logger *logger.Logger
+	Logger          *logger.Logger
 )
