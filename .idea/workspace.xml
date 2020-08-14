@@ -26,19 +26,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/pkg/app/app.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/pkg/app/pagination.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/pkg/convert/convert.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/pkg/logger/logger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/storage/logs/app" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/storage/logs/app.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/docs/docs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/docs/swagger.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/docs/swagger.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/middleware/translations.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/service/article.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/service/tag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/service/blog-service/pkg/app/form.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/global/setting.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/service/blog-service/global/setting.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/service/blog-service/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/service/blog-service/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/internal/model/article.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/model/article.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/internal/model/tag.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/model/tag.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/internal/routers/api/v1/article.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/routers/api/v1/article.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/internal/routers/api/v1/tag.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/routers/api/v1/tag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/internal/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/routers/router.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/service/blog-service/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/pkg/setting/section.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/service/blog-service/pkg/setting/section.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,22 +220,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" width="681" height="519" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592320714373" />
-    <state width="1877" height="252" key="GridCell.Tab.0.bottom" timestamp="1597235092185">
+    <state width="1877" height="251" key="GridCell.Tab.0.bottom" timestamp="1597301994106">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597235092185" />
-    <state width="1877" height="252" key="GridCell.Tab.0.center" timestamp="1597235092185">
+    <state width="1877" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597301994106" />
+    <state width="1877" height="251" key="GridCell.Tab.0.center" timestamp="1597301994106">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="252" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597235092185" />
-    <state width="1877" height="252" key="GridCell.Tab.0.left" timestamp="1597235092185">
+    <state width="1877" height="251" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597301994106" />
+    <state width="1877" height="251" key="GridCell.Tab.0.left" timestamp="1597301994106">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="252" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597235092185" />
-    <state width="1877" height="252" key="GridCell.Tab.0.right" timestamp="1597235092185">
+    <state width="1877" height="251" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597301994106" />
+    <state width="1877" height="251" key="GridCell.Tab.0.right" timestamp="1597301994106">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="252" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597235092185" />
+    <state width="1877" height="251" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597301994106" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1592550532267">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -261,10 +264,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="662" y="87" width="596" height="876" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1597234665859" />
-    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1597135471006">
+    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1597299229801">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1597135471006" />
+    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1597299229801" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$two_sum_test_go.out" NAME="two_sum_test.go Coverage Results" MODIFIED="1592059959818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
