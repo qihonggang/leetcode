@@ -5,5 +5,5 @@ class HumanSensor(object):
        print("人体传感器数据")
        # 人体传感器数据
        data = {'type': 'human_sensor', 'time': time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), 'data': True,
-               'unit': None}
+               'unit': None, 'unusual': '0'}
        return data
