@@ -26,19 +26,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go_code/geek/10.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/geek/4.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/geek/5.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/geek/7.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/geek/7.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/geek/8.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/geek/config.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/geek/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/geek/config_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/geek/go-workgroup.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/code_pattern/01_切片_接口_时间和性能/01_slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/code_pattern/01_切片_接口_时间和性能/02_深度比较.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/code_pattern/01_切片_接口_时间和性能/03_接口编程.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/code_pattern/01_切片_接口_时间和性能/04_接口完整性检查.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/code_pattern/02_错误处理/01_资源清理.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/code_pattern/02_错误处理/02_error_check_hell.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/code_pattern/03_funcional_Options/functional_options.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_code/learn/math/01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/internal/model/article.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/service/blog-service/internal/model/article.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/learn/tour/cmd/time.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/learn/tour/cmd/time.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="D:/geektime/Go-000/Week03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
@@ -97,61 +94,66 @@
       <recent name="D:\code\leetcode\go_code\demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build leetcode/geek">
-    <configuration name="go build blog-service" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/go_code/service/blog-service" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/go_code/service/blog-service/main.go" />
-      <package value="blog-service" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build leetcode/algorithm_pattern/data_structure/HW (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build leetcode/code_pattern/02_错误处理 (1)">
+    <configuration name="go build leetcode/code_pattern/01_切片_接口_时间和性能" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$/go_code" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/HW/hj2.go" />
-      <package value="leetcode/algorithm_pattern/data_structure/HW" />
+      <filePath value="$PROJECT_DIR$/go_code/code_pattern/01_切片_接口_时间和性能/04_接口完整性检查.go" />
+      <package value="leetcode/code_pattern/01_切片_接口_时间和性能" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build leetcode/algorithm_pattern/data_structure/HW" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build leetcode/code_pattern/01_slice (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$/go_code" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/HW/hj1.go" />
-      <package value="leetcode/algorithm_pattern/data_structure/HW" />
+      <filePath value="$PROJECT_DIR$/go_code/code_pattern/01_slice/接口编程.go" />
+      <package value="leetcode/code_pattern/01_slice" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build leetcode/geek" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build leetcode/code_pattern/01_slice" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$/go_code" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go_code/geek/tracker.go" />
-      <package value="leetcode/geek" />
+      <filePath value="$PROJECT_DIR$/go_code/code_pattern/01_slice/02_深度比较.go" />
+      <package value="leetcode/code_pattern/01_slice" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="TestBuildTree in leetcode/algorithm_pattern/data_structure/offer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build leetcode/code_pattern/02_错误处理 (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/offer" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode/algorithm_pattern/data_structure/offer" />
+      <working_directory value="$PROJECT_DIR$/go_code" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/go_code/code_pattern/02_错误处理/error_check_hell.go" />
+      <package value="leetcode/code_pattern/02_错误处理" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestBuildTree$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build leetcode/code_pattern/02_错误处理" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/go_code" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/go_code/code_pattern/02_错误处理/01_资源清理.go" />
+      <package value="leetcode/code_pattern/02_错误处理" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build leetcode/code_pattern/01_slice" />
+      <item itemvalue="Go Build.go build leetcode/code_pattern/01_slice (1)" />
+      <item itemvalue="Go Build.go build leetcode/code_pattern/01_切片_接口_时间和性能" />
+      <item itemvalue="Go Build.go build leetcode/code_pattern/02_错误处理" />
+      <item itemvalue="Go Build.go build leetcode/code_pattern/02_错误处理 (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build leetcode/geek" />
-        <item itemvalue="Go Build.go build blog-service" />
-        <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (1)" />
-        <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW" />
-        <item itemvalue="Go Test.TestBuildTree in leetcode/algorithm_pattern/data_structure/offer" />
+        <item itemvalue="Go Build.go build leetcode/code_pattern/02_错误处理 (1)" />
+        <item itemvalue="Go Build.go build leetcode/code_pattern/02_错误处理" />
+        <item itemvalue="Go Build.go build leetcode/code_pattern/01_切片_接口_时间和性能" />
+        <item itemvalue="Go Build.go build leetcode/code_pattern/01_slice (1)" />
+        <item itemvalue="Go Build.go build leetcode/code_pattern/01_slice" />
       </list>
     </recent_temporary>
   </component>
@@ -189,9 +191,10 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605766078896">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610945444250">
+      <screen x="0" y="0" width="1920" height="1046" />
     </state>
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1610945444250" />
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605766078896" />
     <state x="1118" y="105" key="#go_build_leetcode/algorithm_pattern/data_structure/HW" timestamp="1605765474137">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -201,6 +204,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1118" y="105" key="#go_build_leetcode/algorithm_pattern/data_structure/HW_(1)/0.0.1920.1050@0.0.1920.1050" timestamp="1605765981481" />
+    <state x="0" y="470" key="#go_build_leetcode/code_pattern/01_slice" timestamp="1610945635321">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="0" y="470" key="#go_build_leetcode/code_pattern/01_slice/0.0.1920.1046@0.0.1920.1046" timestamp="1610945635321" />
+    <state x="54" y="470" key="#go_build_leetcode/code_pattern/01_slice_(1)" timestamp="1610946902539">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="54" y="470" key="#go_build_leetcode/code_pattern/01_slice_(1)/0.0.1920.1046@0.0.1920.1046" timestamp="1610946902539" />
+    <state x="810" y="410" key="#go_build_leetcode/code_pattern/01_切片_接口_时间和性能" timestamp="1610947422730">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="810" y="410" key="#go_build_leetcode/code_pattern/01_切片_接口_时间和性能/0.0.1920.1046@0.0.1920.1046" timestamp="1610947422730" />
+    <state x="746" y="435" key="#go_build_leetcode/code_pattern/02_错误处理" timestamp="1610956096315">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="746" y="435" key="#go_build_leetcode/code_pattern/02_错误处理/0.0.1920.1046@0.0.1920.1046" timestamp="1610956096315" />
+    <state x="746" y="389" key="#go_build_leetcode/code_pattern/02_错误处理_(1)" timestamp="1610956129038">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="746" y="389" key="#go_build_leetcode/code_pattern/02_错误处理_(1)/0.0.1920.1046@0.0.1920.1046" timestamp="1610956129038" />
     <state x="1049" y="280" key="#go_build_leetcode/geek" timestamp="1607336485043">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
@@ -210,22 +233,34 @@
     </state>
     <state x="838" y="255" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1607512808694" />
     <state x="838" y="256" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605766167489" />
-    <state width="1211" height="231" key="GridCell.Tab.0.bottom" timestamp="1605766242413">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1162" height="128" key="GridCell.Tab.0.bottom" timestamp="1610956130687">
+      <screen x="0" y="0" width="1920" height="1046" />
     </state>
+    <state width="1162" height="128" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1610956130687" />
     <state width="1211" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242413" />
-    <state width="1211" height="231" key="GridCell.Tab.0.center" timestamp="1605766242411">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1162" height="128" key="GridCell.Tab.0.center" timestamp="1610956130687">
+      <screen x="0" y="0" width="1920" height="1046" />
     </state>
+    <state width="1162" height="128" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1610956130687" />
     <state width="1211" height="231" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242411" />
-    <state width="1211" height="231" key="GridCell.Tab.0.left" timestamp="1605766242411">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1162" height="128" key="GridCell.Tab.0.left" timestamp="1610956130686">
+      <screen x="0" y="0" width="1920" height="1046" />
     </state>
+    <state width="1162" height="128" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1610956130686" />
     <state width="1211" height="231" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242411" />
-    <state width="1211" height="231" key="GridCell.Tab.0.right" timestamp="1605766242412">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1162" height="128" key="GridCell.Tab.0.right" timestamp="1610956130687">
+      <screen x="0" y="0" width="1920" height="1046" />
     </state>
+    <state width="1162" height="128" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1610956130687" />
     <state width="1211" height="231" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242412" />
+    <state x="778" y="297" width="596" height="584" key="find.popup" timestamp="1610947085021">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="778" y="297" width="596" height="584" key="find.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1610947085021" />
+    <state x="155" y="562" key="refactoring.ChangeSignatureDialog" timestamp="1610963854887">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="155" y="562" key="refactoring.ChangeSignatureDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1610963854887" />
     <state x="688" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1605611733777">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
