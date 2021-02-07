@@ -26,8 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/HW/hj7.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/HW/hj8.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/HW/hj10.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/HW/hj9.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +73,7 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -87,21 +87,12 @@
       <recent name="D:\code\leetcode\go_code\algorithm_pattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (5)">
+  <component name="RunManager" selected="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (1)">
     <configuration name="go build leetcode/algorithm_pattern/data_structure/HW (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$/go_code" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/HW/hj4.go" />
-      <package value="leetcode/algorithm_pattern/data_structure/HW" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build leetcode/algorithm_pattern/data_structure/HW (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/go_code" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/HW/hj5.go" />
+      <filePath value="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/HW/hj10.go" />
       <package value="leetcode/algorithm_pattern/data_structure/HW" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -133,20 +124,29 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build leetcode/algorithm_pattern/data_structure/HW" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/go_code" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/HW/hj9.go" />
+      <package value="leetcode/algorithm_pattern/data_structure/HW" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (1)" />
-      <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (2)" />
       <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (3)" />
       <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (4)" />
       <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (5)" />
+      <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW" />
+      <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (1)" />
+        <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW" />
         <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (5)" />
         <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (4)" />
         <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (3)" />
-        <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (2)" />
-        <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -193,15 +193,15 @@
     </state>
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1610945444250" />
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605766078896" />
-    <state x="1118" y="105" key="#go_build_leetcode/algorithm_pattern/data_structure/HW" timestamp="1612261784678">
+    <state x="1118" y="105" key="#go_build_leetcode/algorithm_pattern/data_structure/HW" timestamp="1612692965778">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="1118" y="105" key="#go_build_leetcode/algorithm_pattern/data_structure/HW/0.0.1920.1046@0.0.1920.1046" timestamp="1612261784678" />
+    <state x="1118" y="105" key="#go_build_leetcode/algorithm_pattern/data_structure/HW/0.0.1920.1046@0.0.1920.1046" timestamp="1612692965778" />
     <state x="1118" y="105" key="#go_build_leetcode/algorithm_pattern/data_structure/HW/0.0.1920.1050@0.0.1920.1050" timestamp="1605765474137" />
-    <state x="1118" y="105" key="#go_build_leetcode/algorithm_pattern/data_structure/HW_(1)" timestamp="1612321911556">
+    <state x="1118" y="105" key="#go_build_leetcode/algorithm_pattern/data_structure/HW_(1)" timestamp="1612695734561">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="1118" y="105" key="#go_build_leetcode/algorithm_pattern/data_structure/HW_(1)/0.0.1920.1046@0.0.1920.1046" timestamp="1612321911556" />
+    <state x="1118" y="105" key="#go_build_leetcode/algorithm_pattern/data_structure/HW_(1)/0.0.1920.1046@0.0.1920.1046" timestamp="1612695734561" />
     <state x="1118" y="105" key="#go_build_leetcode/algorithm_pattern/data_structure/HW_(1)/0.0.1920.1050@0.0.1920.1050" timestamp="1605765981481" />
     <state x="1055" y="197" key="#go_build_leetcode/algorithm_pattern/data_structure/HW_(2)" timestamp="1612492418251">
       <screen x="0" y="0" width="1920" height="1046" />
@@ -256,42 +256,46 @@
     </state>
     <state x="838" y="255" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1612246844476" />
     <state x="838" y="256" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605766167489" />
-    <state width="756" height="162" key="GridCell.Tab.0.bottom" timestamp="1612581736464">
+    <state width="1091" height="140" key="GridCell.Tab.0.bottom" timestamp="1612695736007">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="756" height="162" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1612581736464" />
+    <state width="1091" height="140" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1612695736007" />
     <state width="1211" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242413" />
-    <state width="756" height="162" key="GridCell.Tab.0.center" timestamp="1612581736464">
+    <state width="1091" height="140" key="GridCell.Tab.0.center" timestamp="1612695736007">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="756" height="162" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1612581736464" />
+    <state width="1091" height="140" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1612695736007" />
     <state width="1211" height="231" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242411" />
-    <state width="756" height="162" key="GridCell.Tab.0.left" timestamp="1612581736463">
+    <state width="1091" height="140" key="GridCell.Tab.0.left" timestamp="1612695736007">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="756" height="162" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1612581736463" />
+    <state width="1091" height="140" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1612695736007" />
     <state width="1211" height="231" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242411" />
-    <state width="756" height="162" key="GridCell.Tab.0.right" timestamp="1612581736464">
+    <state width="1091" height="140" key="GridCell.Tab.0.right" timestamp="1612695736007">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="756" height="162" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1612581736464" />
+    <state width="1091" height="140" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1612695736007" />
     <state width="1211" height="231" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242412" />
-    <state width="1877" height="350" key="GridCell.Tab.1.bottom" timestamp="1612574613175">
+    <state width="1877" height="350" key="GridCell.Tab.1.bottom" timestamp="1612582001188">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.1.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1612574613175" />
-    <state width="1877" height="350" key="GridCell.Tab.1.center" timestamp="1612574613175">
+    <state width="1877" height="350" key="GridCell.Tab.1.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1612582001188" />
+    <state width="1877" height="350" key="GridCell.Tab.1.center" timestamp="1612582001187">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.1.center/0.0.1920.1046@0.0.1920.1046" timestamp="1612574613175" />
-    <state width="1877" height="350" key="GridCell.Tab.1.left" timestamp="1612574613175">
+    <state width="1877" height="350" key="GridCell.Tab.1.center/0.0.1920.1046@0.0.1920.1046" timestamp="1612582001187" />
+    <state width="1877" height="350" key="GridCell.Tab.1.left" timestamp="1612582001187">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.1.left/0.0.1920.1046@0.0.1920.1046" timestamp="1612574613175" />
-    <state width="1877" height="350" key="GridCell.Tab.1.right" timestamp="1612574613175">
+    <state width="1877" height="350" key="GridCell.Tab.1.left/0.0.1920.1046@0.0.1920.1046" timestamp="1612582001187" />
+    <state width="1877" height="350" key="GridCell.Tab.1.right" timestamp="1612582001188">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.1.right/0.0.1920.1046@0.0.1920.1046" timestamp="1612574613175" />
+    <state width="1877" height="350" key="GridCell.Tab.1.right/0.0.1920.1046@0.0.1920.1046" timestamp="1612582001188" />
+    <state x="829" y="217" key="SettingsEditor" timestamp="1612686309089">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="829" y="217" key="SettingsEditor/0.0.1920.1046@0.0.1920.1046" timestamp="1612686309089" />
     <state x="778" y="297" width="596" height="584" key="find.popup" timestamp="1610947085021">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
