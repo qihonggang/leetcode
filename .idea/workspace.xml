@@ -26,14 +26,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/150. 逆波兰表达式求值.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/20. 有效的括号.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/239. 滑动窗口最大值.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/32. 最长有效括号.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/641. 设计循环双端队列.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/70. 爬楼梯.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/3_排序和二分查找/69. x 的平方根.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/4_散列表和字符串/151. 翻转字符串里的单词.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/4_散列表和字符串/344. 反转字符串.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/4_散列表和字符串/8. 字符串转换整数 (atoi).go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/5_二叉树和堆/104. 二叉树的最大深度.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/5_二叉树和堆/112. 路径总和.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/5_二叉树和堆/226. 翻转二叉树.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/5_二叉树和堆/98. 验证二叉搜索树.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/6_图/200. 岛屿数量.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/6_图/36. 有效的数独.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/7_贪心、分治、回溯和动态规划/10. 正则表达式匹配.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/7_贪心、分治、回溯和动态规划/120. 三角形最小路径和.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/7_贪心、分治、回溯和动态规划/121. 买卖股票的最佳时机.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/7_贪心、分治、回溯和动态规划/152. 乘积最大子数组.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/7_贪心、分治、回溯和动态规划/322. 零钱兑换.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/7_贪心、分治、回溯和动态规划/64. 最小路径和.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/1_数组和链表/15.三数之和.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/1_数组和链表/15.三数之和.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/3_排序和二分查找/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/3_排序和二分查找/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/4_散列表和字符串/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/4_散列表和字符串/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/5_二叉树和堆/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/5_二叉树和堆/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/6_图/READED.md" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/6_图/READED.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/7_贪心、分治、回溯和动态规划/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/7_贪心、分治、回溯和动态规划/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

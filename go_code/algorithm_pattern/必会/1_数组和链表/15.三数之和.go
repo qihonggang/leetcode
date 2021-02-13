@@ -9,10 +9,6 @@ package main
 链接：https://leetcode-cn.com/problems/3sum
  */
 
-func threeSum(nums []int) [][]int {
-
-}
-
 func main() {
 
 }
