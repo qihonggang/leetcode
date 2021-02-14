@@ -26,28 +26,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/150. 逆波兰表达式求值.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/20. 有效的括号.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/239. 滑动窗口最大值.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/32. 最长有效括号.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/641. 设计循环双端队列.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/70. 爬楼梯.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/3_排序和二分查找/69. x 的平方根.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/4_散列表和字符串/151. 翻转字符串里的单词.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/4_散列表和字符串/344. 反转字符串.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/4_散列表和字符串/8. 字符串转换整数 (atoi).go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/5_二叉树和堆/104. 二叉树的最大深度.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/5_二叉树和堆/112. 路径总和.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/5_二叉树和堆/226. 翻转二叉树.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/5_二叉树和堆/98. 验证二叉搜索树.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/6_图/200. 岛屿数量.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/6_图/36. 有效的数独.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/7_贪心、分治、回溯和动态规划/10. 正则表达式匹配.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/7_贪心、分治、回溯和动态规划/120. 三角形最小路径和.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/7_贪心、分治、回溯和动态规划/121. 买卖股票的最佳时机.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/7_贪心、分治、回溯和动态规划/152. 乘积最大子数组.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/7_贪心、分治、回溯和动态规划/322. 零钱兑换.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/7_贪心、分治、回溯和动态规划/64. 最小路径和.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/1_数组和链表/15.三数之和.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/1_数组和链表/15.三数之和.go" afterDir="false" />
     </list>
@@ -108,30 +86,21 @@
       <recent name="D:\code\leetcode\go_code\algorithm_pattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (1)">
+  <component name="RunManager" selected="Go Build.go build leetcode/algorithm_pattern/必会/1_数组和链表">
+    <configuration name="go build leetcode/algorithm_pattern/必会/1_数组和链表" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/go_code" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/go_code/algorithm_pattern/必会/1_数组和链表/15.三数之和.go" />
+      <package value="leetcode/algorithm_pattern/必会/1_数组和链表" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build leetcode/algorithm_pattern/data_structure/HW (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$/go_code" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/HW/16.购物单.go" />
-      <package value="leetcode/algorithm_pattern/data_structure/HW" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build leetcode/algorithm_pattern/data_structure/HW (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/go_code" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/HW/hj12.go" />
-      <package value="leetcode/algorithm_pattern/data_structure/HW" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build leetcode/algorithm_pattern/data_structure/HW (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/go_code" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go_code/algorithm_pattern/data_structure/HW/hj13.go" />
       <package value="leetcode/algorithm_pattern/data_structure/HW" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -154,20 +123,29 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build leetcode/algorithm_pattern/must/1_数组和链表" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/go_code" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/go_code/algorithm_pattern/must/1_数组和链表/15.三数之和.go" />
+      <package value="leetcode/algorithm_pattern/must/1_数组和链表" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (3)" />
-      <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (4)" />
       <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (5)" />
       <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW" />
       <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (1)" />
+      <item itemvalue="Go Build.go build leetcode/algorithm_pattern/必会/1_数组和链表" />
+      <item itemvalue="Go Build.go build leetcode/algorithm_pattern/must/1_数组和链表" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build leetcode/algorithm_pattern/必会/1_数组和链表" />
+        <item itemvalue="Go Build.go build leetcode/algorithm_pattern/must/1_数组和链表" />
         <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (1)" />
         <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW" />
         <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (5)" />
-        <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (4)" />
-        <item itemvalue="Go Build.go build leetcode/algorithm_pattern/data_structure/HW (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -209,10 +187,10 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="752" y="453" key="#GOROOT/0.0.1920.1046@0.0.1920.1046" timestamp="1612246845420" />
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610945444250">
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613306285155">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1610945444250" />
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1613306285155" />
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605766078896" />
     <state x="1118" y="105" key="#go_build_leetcode/algorithm_pattern/data_structure/HW" timestamp="1612970006951">
       <screen x="0" y="0" width="1920" height="1046" />
@@ -277,25 +255,25 @@
     </state>
     <state x="838" y="255" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1612833924338" />
     <state x="838" y="256" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605766167489" />
-    <state width="1091" height="193" key="GridCell.Tab.0.bottom" timestamp="1613020247708">
+    <state width="1877" height="246" key="GridCell.Tab.0.bottom" timestamp="1613306291995">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="1091" height="193" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1613020247708" />
+    <state width="1877" height="246" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1613306291995" />
     <state width="1211" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242413" />
-    <state width="1091" height="193" key="GridCell.Tab.0.center" timestamp="1613020247708">
+    <state width="1877" height="246" key="GridCell.Tab.0.center" timestamp="1613306291995">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="1091" height="193" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1613020247708" />
+    <state width="1877" height="246" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1613306291995" />
     <state width="1211" height="231" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242411" />
-    <state width="1091" height="193" key="GridCell.Tab.0.left" timestamp="1613020247708">
+    <state width="1877" height="246" key="GridCell.Tab.0.left" timestamp="1613306291995">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="1091" height="193" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1613020247708" />
+    <state width="1877" height="246" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1613306291995" />
     <state width="1211" height="231" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242411" />
-    <state width="1091" height="193" key="GridCell.Tab.0.right" timestamp="1613020247708">
+    <state width="1877" height="246" key="GridCell.Tab.0.right" timestamp="1613306291995">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="1091" height="193" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1613020247708" />
+    <state width="1877" height="246" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1613306291995" />
     <state width="1211" height="231" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242412" />
     <state width="1091" height="276" key="GridCell.Tab.1.bottom" timestamp="1613020225283">
       <screen x="0" y="0" width="1920" height="1046" />
