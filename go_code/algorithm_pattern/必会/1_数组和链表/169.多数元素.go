@@ -8,3 +8,18 @@ package main
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/majority-element
  */
+func majorityElement(nums []int) int {
+	major := 0
+	count := 0
+	for _, num := range nums {
+		if count == 0 {
+			major = num
+		}
+		if major == num {
+			count++
+		} else {
+			count--
+		}
+	}
+	return major
+}

@@ -27,7 +27,8 @@
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/1_数组和链表/15.三数之和.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/1_数组和链表/15.三数之和.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/1_数组和链表/169.多数元素.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/1_数组和链表/169.多数元素.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/1_数组和链表/41.缺失的第一个正数.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/1_数组和链表/41.缺失的第一个正数.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,25 +256,25 @@
     </state>
     <state x="838" y="255" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1612833924338" />
     <state x="838" y="256" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605766167489" />
-    <state width="1877" height="246" key="GridCell.Tab.0.bottom" timestamp="1613306291995">
+    <state width="1877" height="246" key="GridCell.Tab.0.bottom" timestamp="1613306446241">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="1877" height="246" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1613306291995" />
+    <state width="1877" height="246" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1613306446241" />
     <state width="1211" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242413" />
-    <state width="1877" height="246" key="GridCell.Tab.0.center" timestamp="1613306291995">
+    <state width="1877" height="246" key="GridCell.Tab.0.center" timestamp="1613306446241">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="1877" height="246" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1613306291995" />
+    <state width="1877" height="246" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1613306446241" />
     <state width="1211" height="231" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242411" />
-    <state width="1877" height="246" key="GridCell.Tab.0.left" timestamp="1613306291995">
+    <state width="1877" height="246" key="GridCell.Tab.0.left" timestamp="1613306446241">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="1877" height="246" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1613306291995" />
+    <state width="1877" height="246" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1613306446241" />
     <state width="1211" height="231" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242411" />
-    <state width="1877" height="246" key="GridCell.Tab.0.right" timestamp="1613306291995">
+    <state width="1877" height="246" key="GridCell.Tab.0.right" timestamp="1613306446241">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="1877" height="246" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1613306291995" />
+    <state width="1877" height="246" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1613306446241" />
     <state width="1211" height="231" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242412" />
     <state width="1091" height="276" key="GridCell.Tab.1.bottom" timestamp="1613020225283">
       <screen x="0" y="0" width="1920" height="1046" />
@@ -315,10 +316,10 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="155" y="562" key="refactoring.ChangeSignatureDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1610963854887" />
-    <state x="688" y="267" width="672" height="676" key="search.everywhere.popup" timestamp="1611819553853">
+    <state x="688" y="267" width="672" height="676" key="search.everywhere.popup" timestamp="1613459745505">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="688" y="267" width="672" height="676" key="search.everywhere.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1611819553853" />
+    <state x="688" y="267" width="672" height="676" key="search.everywhere.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1613459745505" />
     <state x="688" y="268" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1605611733777" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
