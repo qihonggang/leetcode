@@ -14,6 +14,8 @@ import (
 
 注意：答案中不可以包含重复的三元组。
 
+双指针法
+
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/3sum
  */

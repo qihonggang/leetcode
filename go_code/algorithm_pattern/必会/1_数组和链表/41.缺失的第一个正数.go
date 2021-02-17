@@ -9,6 +9,8 @@ import (
 
 进阶：你可以实现时间复杂度为 O(n) 并且只使用常数级别额外空间的解决方案吗？
 
+哈希表法
+
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/first-missing-positive
  */

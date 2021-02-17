@@ -26,16 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go_code/code_pattern/05_map-reduce/employee.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/code_pattern/05_map-reduce/filter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/code_pattern/05_map-reduce/generic-filter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/code_pattern/05_map-reduce/generic-map.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/code_pattern/05_map-reduce/generic-reduce.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/code_pattern/05_map-reduce/generic-transform.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/code_pattern/05_map-reduce/map.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/code_pattern/05_map-reduce/reduce.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/code_pattern/05_map-reduce/01_map.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/1_数组和链表/141.环形链表.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/1_数组和链表/141.环形链表.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/1_数组和链表/15.三数之和.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/1_数组和链表/15.三数之和.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/1_数组和链表/169.多数元素.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/1_数组和链表/169.多数元素.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/1_数组和链表/23.合并K个升序链表.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/1_数组和链表/23.合并K个升序链表.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/1_数组和链表/41.缺失的第一个正数.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/1_数组和链表/41.缺失的第一个正数.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="$PROJECT_DIR$/../../Program Files/Go" />
+  <component name="GOROOT" path="D:/Program Files/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -150,8 +146,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build leetcode/code_pattern/05_map-reduce" />
-        <item itemvalue="Go Build.go build generic-filter.go" />
         <item itemvalue="Go Build.go build leetcode/code_pattern/05_map-reduce (5)" />
+        <item itemvalue="Go Build.go build generic-filter.go" />
         <item itemvalue="Go Build.go build leetcode/code_pattern/05_map-reduce (4)" />
         <item itemvalue="Go Build.go build leetcode/code_pattern/05_map-reduce (3)" />
       </list>
@@ -191,14 +187,18 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="752" y="453" key="#GOROOT" timestamp="1612246845420">
+    <state x="752" y="453" key="#GOROOT" timestamp="1613527445035">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="752" y="453" key="#GOROOT/0.0.1920.1046@0.0.1920.1046" timestamp="1612246845420" />
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613476735459">
+    <state x="752" y="453" key="#GOROOT/0.0.1920.1046@0.0.1920.1046" timestamp="1613527445035" />
+    <state x="683" y="400" key="#Go_Linter" timestamp="1613527411555">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1613476735459" />
+    <state x="683" y="400" key="#Go_Linter/0.0.1920.1046@0.0.1920.1046" timestamp="1613527411555" />
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613527503156">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1613527503156" />
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605766078896" />
     <state x="1118" y="105" key="#go_build_leetcode/algorithm_pattern/data_structure/HW" timestamp="1612970006951">
       <screen x="0" y="0" width="1920" height="1046" />
@@ -282,30 +282,30 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="656" y="235" key="#go_build_leetcode/geek_(2)/0.0.1920.1046@0.0.1920.1046" timestamp="1611889109307" />
-    <state x="838" y="255" key="FileChooserDialogImpl" timestamp="1612833924338">
+    <state x="838" y="255" key="FileChooserDialogImpl" timestamp="1613527443859">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="838" y="255" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1612833924338" />
+    <state x="838" y="255" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1613527443859" />
     <state x="838" y="256" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605766167489" />
-    <state width="1877" height="192" key="GridCell.Tab.0.bottom" timestamp="1613477477345">
+    <state width="1877" height="192" key="GridCell.Tab.0.bottom" timestamp="1613477778045">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="1877" height="192" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1613477477345" />
+    <state width="1877" height="192" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1613477778045" />
     <state width="1211" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242413" />
-    <state width="1877" height="192" key="GridCell.Tab.0.center" timestamp="1613477477345">
+    <state width="1877" height="192" key="GridCell.Tab.0.center" timestamp="1613477778045">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="1877" height="192" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1613477477345" />
+    <state width="1877" height="192" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1613477778045" />
     <state width="1211" height="231" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242411" />
-    <state width="1877" height="192" key="GridCell.Tab.0.left" timestamp="1613477477345">
+    <state width="1877" height="192" key="GridCell.Tab.0.left" timestamp="1613477778045">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="1877" height="192" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1613477477345" />
+    <state width="1877" height="192" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1613477778045" />
     <state width="1211" height="231" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242411" />
-    <state width="1877" height="192" key="GridCell.Tab.0.right" timestamp="1613477477345">
+    <state width="1877" height="192" key="GridCell.Tab.0.right" timestamp="1613477778045">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="1877" height="192" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1613477477345" />
+    <state width="1877" height="192" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1613477778045" />
     <state width="1211" height="231" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242412" />
     <state width="1091" height="276" key="GridCell.Tab.1.bottom" timestamp="1613020225283">
       <screen x="0" y="0" width="1920" height="1046" />
@@ -347,10 +347,10 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="155" y="562" key="refactoring.ChangeSignatureDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1610963854887" />
-    <state x="688" y="267" width="672" height="676" key="search.everywhere.popup" timestamp="1613469617560">
+    <state x="688" y="267" width="672" height="676" key="search.everywhere.popup" timestamp="1613535328150">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="688" y="267" width="672" height="676" key="search.everywhere.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1613469617560" />
+    <state x="688" y="267" width="672" height="676" key="search.everywhere.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1613535328150" />
     <state x="688" y="268" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1605611733777" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">

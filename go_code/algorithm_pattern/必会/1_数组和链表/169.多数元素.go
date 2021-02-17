@@ -5,6 +5,8 @@ package main
 
 你可以假设数组是非空的，并且给定的数组总是存在多数元素。
 
+摩尔投票法
+
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/majority-element
  */

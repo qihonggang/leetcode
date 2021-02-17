@@ -12,7 +12,27 @@ package main
 
 你能用 O(1)（即，常量）内存解决此问题吗？
 
+龟兔赛跑算法
+
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/linked-list-cycle
  */
+type ListNode struct {
+    Val int
+    Next *ListNode
+}
 
+func hasCycle(head *ListNode) bool {
+	if head == nil || head.Next == nil {
+		return false
+	}
+	slow, fast := head, head.Next
+	for fast != slow {
+		if fast == nil || fast.Next == nil {
+			return false
+		}
+		slow = slow.Next
+		fast = fast.Next.Next
+	}
+	return true
+}
