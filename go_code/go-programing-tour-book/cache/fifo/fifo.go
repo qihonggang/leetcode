@@ -50,7 +50,7 @@ func (f *fifo) Get(key string) interface{} {
 
 func (f *fifo) Del(key string) {
 	if e, ok := f.cache[key]; ok {
-		f.removeElement(f.l1.Front())
+		f.removeElement(e)
 	}
 }
 
