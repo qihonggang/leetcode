@@ -26,54 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/cache/cache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/cache/fifo/fifo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/cache/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/learn/async_service_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/learn/async_service_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/learn/tour/cmd/root.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/tour/cmd/root.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/learn/tour/cmd/sql.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/tour/cmd/sql.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/learn/tour/cmd/time.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/tour/cmd/time.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/learn/tour/cmd/word.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/tour/cmd/word.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/learn/tour/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/tour/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/learn/tour/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/tour/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/learn/tour/internal/sql2struct/mysql.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/tour/internal/sql2struct/mysql.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/learn/tour/internal/sql2struct/template.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/tour/internal/sql2struct/template.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/learn/tour/internal/timer/time.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/tour/internal/timer/time.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/learn/tour/internal/word/word.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/tour/internal/word/word.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/learn/tour/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/tour/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/configs/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/configs/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/docs/blog.sql" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/docs/blog.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/docs/docs.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/docs/docs.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/docs/swagger.json" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/docs/swagger.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/docs/swagger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/docs/swagger.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/global/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/global/db.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/global/setting.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/global/setting.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/internal/dao/dao.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/internal/dao/dao.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/internal/dao/tag.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/internal/dao/tag.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/internal/middleware/translations.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/internal/middleware/translations.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/internal/model/article.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/internal/model/article.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/internal/model/article_tag.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/internal/model/article_tag.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/internal/model/model.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/internal/model/model.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/internal/model/tag.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/internal/model/tag.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/internal/routers/api/v1/article.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/internal/routers/api/v1/article.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/internal/routers/api/v1/tag.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/internal/routers/api/v1/tag.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/internal/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/internal/routers/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/internal/service/article.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/internal/service/article.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/internal/service/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/internal/service/service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/internal/service/tag.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/internal/service/tag.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/pkg/app/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/pkg/app/app.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/pkg/app/form.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/pkg/app/form.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/pkg/app/pagination.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/pkg/app/pagination.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/pkg/convert/convert.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/pkg/convert/convert.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/pkg/errcode/common_code.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/pkg/errcode/common_code.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/pkg/errcode/errcode.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/pkg/errcode/errcode.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/pkg/errcode/module_code.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/pkg/errcode/module_code.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/pkg/logger/logger.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/pkg/logger/logger.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/pkg/setting/section.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/pkg/setting/section.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/pkg/setting/setting.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/pkg/setting/setting.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/storage/logs/app" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/storage/logs/app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/service/blog-service/storage/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/blog-service/storage/logs/app.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,11 +78,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\leetcode\go_code\go-programing-tour-book\cache\fifo" />
       <recent name="C:\code\leetcode\go_code\service" />
       <recent name="C:\code\leetcode\go_code\practice\go1_16\helloword" />
       <recent name="C:\code\leetcode\go_code\tour" />
       <recent name="C:\code\leetcode\go_code" />
-      <recent name="D:\code\leetcode\go_code\practice" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\leetcode\go_code\demo" />
