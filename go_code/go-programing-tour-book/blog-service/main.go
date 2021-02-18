@@ -43,7 +43,7 @@ func main(){
 		WriteTimeout: global.ServerSetting.WriteTimeout,
 		MaxHeaderBytes: 1 << 20,
 	}
-	//global.Logger.Infof(nil, "%s: go-programming-tour-book/%s", "eddycjy", "blog-service")
+	//global.Logger.Infof(nil, "%s: go-programming-tour-book/%s", "eddycjy", "blog-service-go-programing-tour-book")
 	s.ListenAndServe()
 }
 

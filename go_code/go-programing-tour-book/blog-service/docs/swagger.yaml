@@ -2,21 +2,27 @@ definitions:
   app.Pager:
     properties:
       page:
+        description: 页码
         type: integer
-      pageSize:
+      page_size:
+        description: 每页数量
         type: integer
-      totalRows:
+      total_rows:
+        description: 总行数
         type: integer
     type: object
   errcode.Error:
     properties:
       code:
+        description: 错误码
         type: integer
       details:
+        description: 详细信息
         items:
           type: string
         type: array
       msg:
+        description: 错误消息
         type: string
     type: object
   model.Article:

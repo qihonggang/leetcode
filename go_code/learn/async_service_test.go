@@ -28,7 +28,7 @@ func AsynService() chan string {
 		ret := service()
 		fmt.Println("returned result.")
 		retCh <- ret
-		fmt.Println("service exited.")
+		fmt.Println("go-programing-tour-book exited.")
 	}()
 	return retCh
 }

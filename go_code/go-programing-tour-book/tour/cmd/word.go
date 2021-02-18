@@ -25,9 +25,9 @@ var desc = strings.Join([] string{
 }, "\n")
 
 var wordCmd = &cobra.Command{
-	Use: "word",
+	Use:   "word",
 	Short: "单词格式转换",
-	Long: desc,
+	Long:  desc,
 	Run: func(cmd *cobra.Command, args []string) {
 		var content string
 		switch mode {
