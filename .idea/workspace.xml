@@ -27,7 +27,8 @@
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/go-programing-tour-book/cache/fifo/fifo.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/go-programing-tour-book/cache/fifo/fifo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/20. 有效的括号.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/20. 有效的括号.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/32. 最长有效括号.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/32. 最长有效括号.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
       <recent name="D:\code\leetcode\go_code\demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build leetcode/code_pattern/05_map-reduce">
+  <component name="RunManager" selected="Go Build.go build leetcode/algorithm_pattern/必会/2_栈、队列和递归">
     <configuration name="go build generic-filter.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$/go_code" />
@@ -96,12 +97,12 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build leetcode/code_pattern/05_map-reduce (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build leetcode/algorithm_pattern/必会/2_栈、队列和递归" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$/go_code" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go_code/code_pattern/05_map-reduce/employee.go" />
-      <package value="leetcode/code_pattern/05_map-reduce" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/20. 有效的括号.go" />
+      <package value="leetcode/algorithm_pattern/必会/2_栈、队列和递归" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -133,19 +134,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build leetcode/code_pattern/05_map-reduce (3)" />
       <item itemvalue="Go Build.go build leetcode/code_pattern/05_map-reduce (4)" />
       <item itemvalue="Go Build.go build leetcode/code_pattern/05_map-reduce (5)" />
       <item itemvalue="Go Build.go build generic-filter.go" />
       <item itemvalue="Go Build.go build leetcode/code_pattern/05_map-reduce" />
+      <item itemvalue="Go Build.go build leetcode/algorithm_pattern/必会/2_栈、队列和递归" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build leetcode/algorithm_pattern/必会/2_栈、队列和递归" />
         <item itemvalue="Go Build.go build leetcode/code_pattern/05_map-reduce" />
         <item itemvalue="Go Build.go build leetcode/code_pattern/05_map-reduce (5)" />
         <item itemvalue="Go Build.go build generic-filter.go" />
         <item itemvalue="Go Build.go build leetcode/code_pattern/05_map-reduce (4)" />
-        <item itemvalue="Go Build.go build leetcode/code_pattern/05_map-reduce (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -283,25 +284,25 @@
     </state>
     <state x="838" y="255" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1613527443859" />
     <state x="838" y="256" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605766167489" />
-    <state width="1877" height="192" key="GridCell.Tab.0.bottom" timestamp="1613477778045">
+    <state width="1009" height="149" key="GridCell.Tab.0.bottom" timestamp="1613733828428">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="1877" height="192" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1613477778045" />
+    <state width="1009" height="149" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1613733828428" />
     <state width="1211" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242413" />
-    <state width="1877" height="192" key="GridCell.Tab.0.center" timestamp="1613477778045">
+    <state width="1009" height="149" key="GridCell.Tab.0.center" timestamp="1613733828428">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="1877" height="192" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1613477778045" />
+    <state width="1009" height="149" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1613733828428" />
     <state width="1211" height="231" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242411" />
-    <state width="1877" height="192" key="GridCell.Tab.0.left" timestamp="1613477778045">
+    <state width="1009" height="149" key="GridCell.Tab.0.left" timestamp="1613733828428">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="1877" height="192" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1613477778045" />
+    <state width="1009" height="149" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1613733828428" />
     <state width="1211" height="231" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242411" />
-    <state width="1877" height="192" key="GridCell.Tab.0.right" timestamp="1613477778045">
+    <state width="1009" height="149" key="GridCell.Tab.0.right" timestamp="1613733828428">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state width="1877" height="192" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1613477778045" />
+    <state width="1009" height="149" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1613733828428" />
     <state width="1211" height="231" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242412" />
     <state width="1091" height="276" key="GridCell.Tab.1.bottom" timestamp="1613020225283">
       <screen x="0" y="0" width="1920" height="1046" />
