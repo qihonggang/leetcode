@@ -27,7 +27,6 @@
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/20. 有效的括号.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/20. 有效的括号.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/32. 最长有效括号.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/32. 最长有效括号.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
