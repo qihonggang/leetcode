@@ -1,4 +1,7 @@
 package main
+
+import "strconv"
+
 /**
 根据 逆波兰表示法，求表达式的值。
 
@@ -14,3 +17,24 @@ package main
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/evaluate-reverse-polish-notation
  */
+
+func evalRPN(tokens []string) int {
+	number := []int{}
+	for _, v := range tokens {
+		l := len(number)
+		switch v {
+		case "+":
+			number = append(number[:l-2], number[l-2] + number[l-1])
+		case "-":
+			number = append(number[:l-2], number[l-2] - number[l-1])
+		case "*":
+			number = append(number[:l-2], number[l-2] * number[l-1])
+		case "/":
+			number = append(number[:l-2], number[l-2] / number[l-1])
+		default:
+			num, _ := strconv.Atoi(v)
+			number = append(number, num)
+		}
+	}
+	return number[0]
+}
