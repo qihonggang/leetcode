@@ -28,6 +28,8 @@
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/239. 滑动窗口最大值.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/239. 滑动窗口最大值.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/70. 爬楼梯.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/70. 爬楼梯.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/3_排序和二分查找/69. x 的平方根.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/3_排序和二分查找/69. x 的平方根.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,6 +224,10 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="870" y="135" key="#go_build_leetcode/algorithm_pattern/data_structure/HW_(5)/0.0.1920.1046@0.0.1920.1046" timestamp="1612842421216" />
+    <state x="656" y="235" key="#go_build_leetcode/algorithm_pattern/必会/2_栈、队列和递归" timestamp="1614343101097">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="656" y="235" key="#go_build_leetcode/algorithm_pattern/必会/2_栈、队列和递归/0.0.1920.1046@0.0.1920.1046" timestamp="1614343101097" />
     <state x="0" y="470" key="#go_build_leetcode/code_pattern/01_slice" timestamp="1610945635321">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
@@ -347,7 +353,6 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="688" y="267" width="672" height="676" key="search.everywhere.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1613535328150" />
-    <state x="688" y="268" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1605611733777" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$two_sum_test_go.out" NAME="two_sum_test.go Coverage Results" MODIFIED="1592059959818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -5,6 +5,8 @@ package main
 
 返回滑动窗口中的最大值。
 
+单调双端队列
+
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/sliding-window-maximum
  */
