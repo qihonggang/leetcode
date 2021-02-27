@@ -27,9 +27,8 @@
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/239. 滑动窗口最大值.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/239. 滑动窗口最大值.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/70. 爬楼梯.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/2_栈、队列和递归/70. 爬楼梯.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/3_排序和二分查找/69. x 的平方根.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/3_排序和二分查找/69. x 的平方根.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/4_散列表和字符串/151. 翻转字符串里的单词.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/4_散列表和字符串/151. 翻转字符串里的单词.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/4_散列表和字符串/344. 反转字符串.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/4_散列表和字符串/344. 反转字符串.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,17 +196,14 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1613527503156" />
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605766078896" />
     <state x="1118" y="105" key="#go_build_leetcode/algorithm_pattern/data_structure/HW" timestamp="1612970006951">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="1118" y="105" key="#go_build_leetcode/algorithm_pattern/data_structure/HW/0.0.1920.1046@0.0.1920.1046" timestamp="1612970006951" />
-    <state x="1118" y="105" key="#go_build_leetcode/algorithm_pattern/data_structure/HW/0.0.1920.1050@0.0.1920.1050" timestamp="1605765474137" />
     <state x="1118" y="105" key="#go_build_leetcode/algorithm_pattern/data_structure/HW_(1)" timestamp="1613019091479">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="1118" y="105" key="#go_build_leetcode/algorithm_pattern/data_structure/HW_(1)/0.0.1920.1046@0.0.1920.1046" timestamp="1613019091479" />
-    <state x="1118" y="105" key="#go_build_leetcode/algorithm_pattern/data_structure/HW_(1)/0.0.1920.1050@0.0.1920.1050" timestamp="1605765981481" />
     <state x="1055" y="197" key="#go_build_leetcode/algorithm_pattern/data_structure/HW_(2)" timestamp="1612750826330">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
@@ -288,27 +284,22 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="838" y="255" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1613527443859" />
-    <state x="838" y="256" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605766167489" />
     <state width="1009" height="149" key="GridCell.Tab.0.bottom" timestamp="1613827037418">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1009" height="149" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1613827037418" />
-    <state width="1211" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242413" />
     <state width="1009" height="149" key="GridCell.Tab.0.center" timestamp="1613827037418">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1009" height="149" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1613827037418" />
-    <state width="1211" height="231" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242411" />
     <state width="1009" height="149" key="GridCell.Tab.0.left" timestamp="1613827037418">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1009" height="149" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1613827037418" />
-    <state width="1211" height="231" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242411" />
     <state width="1009" height="149" key="GridCell.Tab.0.right" timestamp="1613827037418">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1009" height="149" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1613827037418" />
-    <state width="1211" height="231" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605766242412" />
     <state width="1091" height="276" key="GridCell.Tab.1.bottom" timestamp="1613020225283">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
@@ -345,10 +336,10 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="778" y="297" width="596" height="584" key="find.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1610947085021" />
-    <state x="155" y="562" key="refactoring.ChangeSignatureDialog" timestamp="1610963854887">
+    <state x="155" y="562" key="refactoring.ChangeSignatureDialog" timestamp="1614417189073">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="155" y="562" key="refactoring.ChangeSignatureDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1610963854887" />
+    <state x="155" y="562" key="refactoring.ChangeSignatureDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1614417189073" />
     <state x="688" y="267" width="672" height="676" key="search.everywhere.popup" timestamp="1613535328150">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
