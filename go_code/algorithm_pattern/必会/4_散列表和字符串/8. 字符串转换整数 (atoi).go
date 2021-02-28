@@ -1,5 +1,10 @@
 package main
 
+import (
+	"math"
+	"strings"
+)
+
 /**
 请你来实现一个 myAtoi(string s) 函数，使其能将字符串转换成一个 32 位有符号整数（类似 C/C++ 中的 atoi 函数）。
 
@@ -19,3 +24,48 @@ package main
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/string-to-integer-atoi
  */
+
+func myAtoi(s string) int {
+	return convert(clean(s))
+}
+
+func clean(s string) (sign int, abs string) {
+	// 先去除首尾空格
+	s = strings.TrimSpace(s)
+	if s == "" {
+		return
+	}
+	switch s[0] {
+	case '0', '1', '2', '3', '4', '5', '6', '7', '8', '9':
+		sign, abs = 1, s
+	case '+':
+		sign, abs = 1, s[1:]
+	case '-':
+		sign, abs = -1, s[1:]
+	// 无效，当空字符串处理
+	default:
+		abs = ""
+		return
+	}
+	for i, b := range abs {
+		if b < '0' || '9' < b {
+			abs = abs[:i]
+			break
+		}
+	}
+	return
+}
+
+func convert(sign int, absStr string) int {
+	absNum := 0
+	for _, b := range absStr{
+		absNum = absNum * 10 + int(b - '0')
+		switch {
+		case sign == 1 && absNum > math.MaxInt32:
+			return math.MaxInt32
+		case sign == -1 && absNum * sign < math.MinInt32:
+			return math.MinInt32
+		}
+	}
+	return sign * absNum
+}

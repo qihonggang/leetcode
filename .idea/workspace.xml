@@ -27,8 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="743a5936-eadb-4c5b-af2f-95f64bceb099" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/4_散列表和字符串/151. 翻转字符串里的单词.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/4_散列表和字符串/151. 翻转字符串里的单词.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/4_散列表和字符串/344. 反转字符串.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/4_散列表和字符串/344. 反转字符串.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/4_散列表和字符串/8. 字符串转换整数 (atoi).go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/algorithm_pattern/必会/4_散列表和字符串/8. 字符串转换整数 (atoi).go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
