@@ -1,7 +1,0 @@
-{
-    "go.testFlags": [
-        "-v",
-        "-cover"
-    ],
-    "go.testTags": "",
-}
