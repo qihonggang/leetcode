@@ -1,7 +1,6 @@
-
 /**
 除自身以外数组的乘积
- */
+*/
 package practice
 
 import "testing"
@@ -9,7 +8,7 @@ import "testing"
 func productExceptSelf(nums []int) []int {
 	var result = make([]int, len(nums))
 
-	for i:=0; i < len(nums); i++ {
+	for i := 0; i < len(nums); i++ {
 		result[i] = 1
 	}
 
@@ -38,15 +37,15 @@ func productExceptSelf2(nums []int) []int {
 		R[i] = nums[i+1] * R[i+1]
 	}
 
-	for i:= 0; i < length; i++ {
+	for i := 0; i < length; i++ {
 		answer[i] = L[i] * R[i]
 	}
 
 	return answer
 }
 
-func TestExcepteSelf(t *testing.T){
-	nums := []int{1,2,3,4}
+func TestExcepteSelf(t *testing.T) {
+	nums := []int{1, 2, 3, 4}
 	result := productExceptSelf2(nums)
 	t.Log(result)
 }

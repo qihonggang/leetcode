@@ -1,7 +1,8 @@
 package practice
+
 /**
- 268. 缺失数字
- */
+268. 缺失数字
+*/
 import "testing"
 
 func missingNumber(nums []int) int {
@@ -14,6 +15,6 @@ func missingNumber(nums []int) int {
 }
 
 func TestMissingNuber(t *testing.T) {
-	num := []int{3,0,1}
+	num := []int{3, 0, 1}
 	t.Log(missingNumber(num))
 }

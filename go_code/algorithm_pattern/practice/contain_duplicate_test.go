@@ -1,6 +1,6 @@
 /**
-	题目：存在重复元素
- */
+题目：存在重复元素
+*/
 package practice
 
 import "testing"
@@ -18,7 +18,7 @@ func containsDuplicate(nums []int) bool {
 }
 
 func TestContanisDuplicate(t *testing.T) {
-	arr := []int{1,2,4,3}
+	arr := []int{1, 2, 4, 3}
 	result := containsDuplicate(arr)
 	t.Log(result)
 }
