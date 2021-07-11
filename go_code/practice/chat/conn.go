@@ -6,7 +6,7 @@ import (
 	"net"
 )
 
-func handleConn(conn net.Conn){
+func handleConn(conn net.Conn) {
 	ch := make(chan string)
 	go clientWriter(conn, ch)
 
@@ -16,7 +16,7 @@ func handleConn(conn net.Conn){
 	entering <- ch
 
 	input := bufio.NewScanner(conn)
-	for input.Scan(){
+	for input.Scan() {
 		messages <- who + ": " + input.Text()
 	}
 
@@ -25,7 +25,7 @@ func handleConn(conn net.Conn){
 	conn.Close()
 }
 
-func clientWriter(conn net.Conn, ch <-chan string){
+func clientWriter(conn net.Conn, ch <-chan string) {
 	for msg := range ch {
 		fmt.Fprintln(conn, msg)
 	}

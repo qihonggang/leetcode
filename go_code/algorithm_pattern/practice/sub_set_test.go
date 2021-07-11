@@ -3,8 +3,8 @@ package practice
 import "testing"
 
 /**
-	给定一组不含重复元素的整数数组 nums，返回该数组所有可能的子集（幂集）。
- */
+给定一组不含重复元素的整数数组 nums，返回该数组所有可能的子集（幂集）。
+*/
 
 func subsets(nums []int) [][]int {
 	// 保存最终结果
@@ -27,13 +27,13 @@ func backtrack(nums []int, pos int, list []int, result *[][]int) {
 	// 选择、处理结果、再撤销选择
 	for i := pos; i < len(nums); i++ {
 		list = append(list, nums[i])
-		backtrack(nums, i + 1, list, result)
-		list = list[0: len(list) - 1]
+		backtrack(nums, i+1, list, result)
+		list = list[0 : len(list)-1]
 	}
 }
 
-func TestSubSet(t *testing.T){
-	nums := []int{1,2,3,4,5}
+func TestSubSet(t *testing.T) {
+	nums := []int{1, 2, 3, 4, 5}
 	subNums := subsets(nums)
 	t.Log(subNums)
 }

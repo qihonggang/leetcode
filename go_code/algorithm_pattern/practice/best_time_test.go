@@ -3,20 +3,20 @@
  */
 package practice
 
-import(
+import (
 	"testing"
 )
 
 func maxProfit(prices []int) int {
 	Max := 0
-	for i := 0; i < len(prices) - 1; i++{
+	for i := 0; i < len(prices)-1; i++ {
 		for j := i + 1; j < len(prices); j++ {
 			delta := prices[j] - prices[i]
 			if delta > Max {
 				Max = delta
 			}
 		}
-	} 
+	}
 	return Max
 }
 
@@ -27,7 +27,7 @@ func maxProfit2(prices []int) int {
 	Min := prices[0]
 	Max := 0
 	for i := 1; i < len(prices); i++ {
-		if prices[i] - Min > Max {
+		if prices[i]-Min > Max {
 			Max = prices[i] - Min
 		}
 		if prices[i] < Min {
@@ -38,6 +38,6 @@ func maxProfit2(prices []int) int {
 }
 
 func TestBestTime(t *testing.T) {
-	prices := []int{7,6,4,3,1}
+	prices := []int{7, 6, 4, 3, 1}
 	t.Log(maxProfit2(prices))
 }
